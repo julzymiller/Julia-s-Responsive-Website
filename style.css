@@ -28,6 +28,8 @@ html{
     display: flex;
     gap: 1rem;
     transition: all 0.5s ease-out;
+    animation-duration: 3s;
+    animation-name: slide-in;
 }
 
 a:hover,
