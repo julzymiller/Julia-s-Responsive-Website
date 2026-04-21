@@ -35,6 +35,10 @@ html{
 a:hover,
 a:focus{
     color: #b39eb5;
+}
+
+a span{
+    display: inline-block;
     animation-duration: 3s;
     animation-name: grow-shrink;
 }
