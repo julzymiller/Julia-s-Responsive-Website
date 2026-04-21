@@ -37,13 +37,6 @@ a:focus{
     color: #b39eb5;
 }
 
-a span{
-    display: inline-block;
-    animation-duration: 3s;
-    animation-name: grow-shrink;
-}
-
-
 /*hero styles*/
 
 .hero-outer{
@@ -279,17 +272,6 @@ a span{
     to{
         translate: 0 0;
         scale: 100% 1;
-    }
-}
-
-@keyframes grow-shrink{
-    25%,
-    75% {
-    scale: 100%;
-    }
-    50%{
-        scale:200%
-        color: #DBDCDA
     }
 }
 
